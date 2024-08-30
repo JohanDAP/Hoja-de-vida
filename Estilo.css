@@ -1,0 +1,64 @@
+body {background-color: aqua;}
+
+#h1 {color: rgb(129, 136, 128); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
+
+.contenedor {
+    display: flex; 
+    align-items: flex-start; 
+}
+
+#foto {
+    border: 5px solid rgb(188, 182, 189); 
+    margin-right: 20px; 
+    max-width: 150px; 
+}
+
+.contenedor-texto {
+    max-width: 400px; 
+}
+
+#sub1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(146, 146, 146);
+    margin-bottom: 10px;
+}
+
+#datos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.etiqueta {
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(141, 141, 141);
+}
+
+.respuesta {
+    flex-grow: 1;
+}
+#leyenda {
+    text-align: center;
+     color: rgb(0, 0, 0); 
+     font-family: fantasy; 
+     font-size: x-large;
+    }
+#descripcion {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 5px;}
+
+
+
+
+
