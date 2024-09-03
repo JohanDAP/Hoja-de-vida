@@ -1,0 +1,77 @@
+/*Estilos para el navbar*/
+
+.navbar{
+    display: flex; /*Se utiliza para distribuir de manera horizontal*/
+    justify-content: space-between; /*separacion de elementos*/
+    align-items: center; /*alinea los elementos verticalmente*/
+    background-color: rgb(0, 255, 255);
+    padding: 10px; /* espacio entre los elementos*/
+}
+.logo a{
+    color: black;
+    text-decoration: none; /*elimina el subrayado del texto logo*/
+    font-size: 24px; /* Tamaño de la fuente*/
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.dropdown{
+    position: relative; /*posicionar el contenedor*/
+}
+
+.dropdown-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; /* enlaces ocupan todo el ancho del contenido*/
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 255, 170);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px rgb(rgb(0, 0, 255));
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-links a li:hover {
+    background-color: rgb(0, 243, 162);
+    border-radius: 4px;
+}
+.search-bar {
+    display: flex; 
+    align-items: center;
+    gap: 5px; /* Espacio entre el input y el botón */
+}
+.search-bar input[type="text"] {
+    padding: 5px; /* Espacio dentro del campo de texto */
+    border: 1px solid #ccc; /* Borde del campo de texto */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño del texto */
+}
+.search-bar button {
+    padding: 5px 10px; /* Espacio dentro del botón */
+    background-color: #333; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Eliminar borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+.search-bar button:hover {
+    background-color: #36e213; /* Color de fondo del botón al pasar el cursor */
+}
+
+
