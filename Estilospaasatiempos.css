@@ -1,0 +1,90 @@
+body{
+    background-color: #434ee7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Coloca los artículos uno al lado del otro */
+    flex-wrap: wrap; /* Permite que los artículos se envuelvan en filas si el contenedor es demasiado pequeño */
+    justify-content: center; /* Centra los artículos en el contenedor */
+    gap: 20px; /* Espacio entre los artículos */
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box;
+}
+
+.container article {
+    flex: 1 1 45%; /* Los artículos ocuparán el 45% del ancho del contenedor, con flexibilidad */
+    max-width: 45%; /* Asegura que no se expandan más del 45% */
+    min-width: 300px; /* Ancho mínimo para los artículos */
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
+    background-color: aqua;
+}
+
+.container article:hover {
+    box-shadow: 0 2.6px 7.4px rgb(0, 0, 0);
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: aliceblue;
+    margin: 16px 0;
+    border-radius: 8px;
+    padding: 4px 0;
+    cursor: pointer;
+}
+
+section article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Hace que las imágenes coincidan con los bordes redondeados */
+}
+
+section article:hover{
+    box-shadow: 0 1.6px 6.4px rgb(26, 27, 0.3)
+}
+
+section article h2, section article {
+    margin: 16px;
+    line-height: 1.5;
+ }
+
+footer{
+    background-color: black;
+    padding: 48px;
+    color: aliceblue;
+}
+
+footer section{
+    text-align: right;
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: brown;
+}
+
+header {
+    background-color: black;
+    padding: 1px;
+}
+
+footer p {
+    text-align: center; /* Centra el texto del pie de página */
+    margin-top: 20px;
+    font-size: 14px; /* Ajusta el tamaño del texto si es necesario */
+     }
